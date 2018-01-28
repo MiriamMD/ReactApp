@@ -1,0 +1,15 @@
+.catch-of-the-day {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.catch-of-the-day > * {
+  width: 90%;
+  border: 1px solid blue;
+}
+
+.fish-edit {
+  flex-wrap: wrap;
+  display: flex;
+}
