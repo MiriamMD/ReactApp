@@ -6,10 +6,30 @@
 
 .catch-of-the-day > * {
   width: 90%;
-  border: 1px solid blue;
 }
 
 .fish-edit {
   flex-wrap: wrap;
   display: flex;
+}
+
+.list-of-fishes {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.menu-fish {
+  border-bottom: 1px solid rgb(122, 122, 122);
+  padding-bottom: 20px;
+}
+
+.fish-name {
+  position: relative;
+}
+
+.fish-price {
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
