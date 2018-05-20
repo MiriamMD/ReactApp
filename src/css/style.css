@@ -9,8 +9,39 @@
 }
 
 .fish-edit {
-  flex-wrap: wrap;
+  margin-bottom: 20px;
+  border: 2px solid rgb(201, 200, 200);
+  overflow: hidden;
   display: flex;
+  flex-wrap: wrap;
+}
+
+.fish-edit input {
+  width: 33.33%;
+  padding: 10px;
+  line-height: 1;
+  font-size: 12px;
+  border: 0;
+  border-bottom: 1px solid rgb(201, 200, 200);
+  border-right: 1px solid rgb(201, 200, 200);
+  appearance: none;
+  border-radius: 0;
+  background: white;
+}
+.fish-edit input:focus {
+  outline: 0;
+  background: lighten(orange, 85%);
+}
+.fish-edit textarea {
+  width: 100%;
+}
+ 
+.fish-edit input:last-of-type {
+  width: 100%;
+}
+.fish-edit button {
+  width: 100%;
+  border: 0;
 }
 
 .list-of-fishes {
